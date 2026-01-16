@@ -1,0 +1,154 @@
+ body {
+	background-color: #EEAECA;
+	background: -webkit-linear-gradient(to left, #EEAECA 0%, #94BBE9 100%); /*Chrome and Safari*/
+	background: -o-linear-gradient(to left,#EEAECA 0%, #94BBE9 100%); /*Opera*/
+	background: -moz-linear-gradient(to left, #EEAECA 0%, #94BBE9 100%); /*Chrome and Safari*/
+	background: linear-gradient(to left,#EEAECA 0%, #94BBE9 100%); /* List the standard syntax last */
+}
+
+header img{ 
+	max-width: 10%;
+	float: left;
+}
+
+
+
+nav {
+		display: inline-block;
+		font-family: Trebuchet MS, sans-serif;
+		font-size: 1.25em;
+		font-weight: bold;
+		text-align: center;
+		margin-top: 4em;
+}
+	
+
+
+
+/* Style changes nagivation link text color to white and removes the underline*/
+nav li a { 
+			color: #000000;
+			text-decoration: none;
+}
+
+
+
+#banner { 
+		width: 100%;
+		text-align: center;
+}
+
+#banner img { 
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+footer { 
+		font-size: .70em;
+		text-align: center;
+		margin-top: 20px;
+		color: #FFFFFF;
+}
+
+main { 
+		display: block;
+		font-family: Trebuchet MS, sans-serif;
+		font-size: 1.5em;
+		font-weight: bold;
+		text-align: center;
+		margin: 2em auto;
+		max-width: 80%;
+}
+
+.flower {
+	float: left;
+	padding-right: 2em;
+}
+
+#section {
+			display: block;
+			clear: both;
+			padding-bottom: 6em;
+			padding: 6em;
+			border-radius: 2em;
+			color: #FFFFFF;
+			
+}
+
+/* Style for nav li specifies the background color, rounded corners, removes bullet style, and applies margins and padding for list items within the navigation */
+nav li {
+		display: inline;
+		background-color: #FFFFFF;
+		border-radius: 2em;
+		list-style-type: none;
+		margin: 0 1em;
+		padding: 0.6em 1.2em;
+}
+
+/* Style for the header specifies top margin, background color, rounded corners, and center-aligns content */
+header {
+	text-align: center;
+}
+
+/* Style specifies padding and margins for unordered list */
+nav ul {
+	background-color: #FFFFFF;
+	padding: 1em;
+	margin: 0.5em;
+	border-radius: 1em;
+	list-style-type: none;
+	display: inline-block;
+}	
+
+main h1 {
+	font-size: 2.5em;
+	margin-bottom: 0.5em;
+	color: #000000;
+	padding: 1em;
+	display: block;
+}
+
+#section h1 {
+	padding-left: 20px;
+	margin-top: 10px;
+}
+
+nav li a:hover {
+	color: #94BBE9;
+}
+
+.flower-title {
+	display: inline-block;
+	padding: 0.3em 1em;
+	border-radius: 50px;
+	color:#FFFFFF;
+	font-weight: bold;
+	margin: 0.3em 0;
+	box-shadow: 0 2px 5px rgba (0,0,0,01);
+	font-size: 1.5em;
+}
+
+.winterflowers .flower-title {
+	background-color: #94BBE9;
+}
+
+.fallflowers .flower-title {
+	background-color: #6B3E00;
+}
+
+.springflowers .flower-title {
+	background-color: #FFDDEE;
+}
+
+.summerflowers .flower-title {
+	background-color: #2B4F2B;
+}
+	
+
+
+
+
+
+ 
+ 
